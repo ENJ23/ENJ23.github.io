@@ -112,7 +112,7 @@ body {
     min-height: 100%;
     width: auto;
     height: auto;
-    z-index: -1; /* Coloca el video detrás del contenido */
+    z-index: 1; /* Coloca el video detrás del contenido */
     transform: translate(-50%, -50%);
 }
 
