@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Blog de Fitness</title>
+    <link rel="stylesheet" href="/Styles/blogStyle.css">
+    <link rel="stylesheet" href="/Styles/darklight.css">
+    <link rel="stylesheet" href="/Styles/navbar.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="header" id="navbar">
+        <a href="index.html" class="logo">GIMNASIO TOP</a>
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class="bx bx-menu" id="menu-icon"></i>
+            <i class="bx bx-x" id="close-menu-icon"></i>
+        </label>
+        <nav class="navbar">
+            <a href="clases.html" style="--i:1">Clases</a>
+            <a href="entrenadores.html" style="--i:2">Entrenadores</a>
+            <a href="formulario.html" style="--i:3">Formulario</a>
+            <a href="paginaBlog.html" style="--i:4">Blog</a>
+            <a href="planPrices.html" style="--i:5">Precios</a>
+            <a href="#" style="--i:6">
+                <label class="theme-switch">
+                    <input type="checkbox" id="theme-toggle">
+                    <span class="slider"></span>
+                </label>
+            </a>
+        </nav>
+    </header>
+
+    <header class="blog-header">
+        <h1>Blog de Fitness<
+        <nav>
+            <ul>
+                <li><a href="#articulos">Artículos</a></li>
+                <li><a href="#comentarios">Comentarios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="articulos">
+        <div class="grid-container">
+            <article class="post" data-category="nutricion">
+                <h2>La Importancia de la Nutrición</h2>
+                <p>La nutrición es fundamental para alcanzar tus objetivos de fitness...</p>
+                <div class="tags">
+                    <span class="tag">Nutrición</span>
+                    <span class="tag">Salud</span>
+                </div>
+            </article>
+            <article class="post" data-category="ejercicio">
+                <h2>Ejercicios para Fortalecer el Core</h2>
+                <p>Un core fuerte es esencial para cualquier rutina de ejercicios...</p>
+                <div class="tags">
+                    <span class="tag">Ejercicio</span>
+                    <span class="tag">Entrenamiento</span>
+                </div>
+            </article>
+            <article class="post" data-category="bienestar">
+                <h2>La Importancia del Bienestar Mental</h2>
+                <p>El bienestar mental es tan importante como el físico...</p>
+                <div class="tags">
+                    <span class="tag">Bienestar</span>
+                    <span class="tag">Salud</span>
+                </div>
+            </article>
+            <article class="post" data-category="nutricion">
+                <h2>Recetas Saludables para el Desayuno</h2>
+                <p>Comienza tu día con estas deliciosas recetas saludables...</p>
+                <div class="tags">
+                    <span class="tag">Nutrición</span>
+                    <span class="tag">Recetas</span>
+                </div>
+            </article>
+            <article class="post" data-category="ejercicio">
+                <h2>Rutinas de Cardio para Principiantes</h2>
+                <p>Descubre cómo empezar con el cardio de manera efectiva...</p>
+                <div class="tags">
+                    <span class="tag">Ejercicio</span>
+                    <span class="tag">Cardio</span>
+                </div>
+            </article>
+            <article class="post" data-category="bienestar">
+                <h2>Cómo Manejar el Estrés</h2>
+                <p>Aprende técnicas para reducir el estrés y mejorar tu calidad de vida...</p>
+                <div class="tags">
+                    <span class="tag">Bienestar</span>
+                    <span class="tag">Estrés</span>
+                </div>
+            </article>
+            <article class="post" data-category="nutricion">
+                <h2>Alimentos para Ganar Masa Muscular</h2>
+                <p>Conoce los mejores alimentos para aumentar tu masa muscular...</p>
+                <div class="tags">
+                    <span class="tag">Nutrición</span>
+                    <span class="tag">Masa Muscular</span>
+                </div>
+            </article>
+            <article class="post" data-category="ejercicio">
+                <h2>Entrenamientos de Alta Intensidad</h2>
+                <p>Descubre cómo los entrenamientos HIIT pueden transformar tu cuerpo...</p>
+                <div class="tags">
+                    <span class="tag">Ejercicio</span>
+                    <span class="tag">HIIT</span>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <section id="comentarios">
+        <h2>Comentarios</h2>
+        <div class="comment">
+            <div class="avatar"></div>
+            <div class="comment-content">
+                <strong>Juan Pérez</strong>
+                <p>¡Excelente artículo! La nutrición es clave para el rendimiento.</p>
+            </div>
+        </div>
+        <div class="comment">
+            <div class="avatar"></div>
+            <div class="comment-content">
+                <strong>María López</strong>
+                <p>Me encantan las recetas saludables, ¡gracias por compartir!</p>
+            </div>
+        </div>
+        <div class="comment">
+            <div class="avatar"></div>
+            <div class="comment-content">
+                <strong>Carlos Ramírez</strong>
+                <p>El artículo sobre el bienestar mental me ayudó mucho, ¡gracias!</p>
+            </div>
+        </div>
+        <div class="comment">
+            <div class="avatar"></div>
+            <div class="comment-content">
+                <strong>Lucía Fernández</strong>
+                <p>Los entrenamientos HIIT son increíbles, ¡muy recomendados!</p>
+            </div>
+        </div>
+        <div class="comment">
+            <div class="avatar"></div>
+            <div class="comment-content">
+                <strong>Pedro Gómez</strong>
+                <p>Gracias por las rutinas de cardio, justo lo que necesitaba.</p>
+            </div>
+        </div>
+        <div class="comment">
+            <div class="avatar"></div>
+            <div class="comment-content">
+                <strong>Andrea Torres</strong>
+                <p>Las recetas de desayuno son deliciosas, ¡gracias por compartir!</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="newsletter">
+            <h3>Suscríbete a nuestro Newsletter</h3>
+            <form>
+                <input type="email" placeholder="Tu correo electrónico" required>
+                <button type="submit">Suscribirse</button>
+            </form>
+        </div>
+        <div class="social-links">
+            <h3>Síguenos</h3>
+            <a href="#">Facebook</a>
+            <a href="#"><i class='bx bxl-instagram'> Instragram</i></a>
+            <a href="#">Twitter</a>
+        </div>
+        <div class="map">
+            <h3>Ubicación</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093647!2d144.95373631550415!3d-37.81627974202198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce6e0!2sMelbourne%2C%20Australia!5e0!3m2!1sen!2s!4v1619091079349!5m2!1sen!2s"
+                width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </footer>
+    <script src="/JS/darkLight.js"></script>
+    <script src="/JS/navbarFixed.js"></script>
+    <script src="/JS/scriptBlog.js"></script>
+</body>
+</html>
