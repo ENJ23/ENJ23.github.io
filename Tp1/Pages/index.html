@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gimnasio | Pagina Principal</title>
+    <link rel="stylesheet" href="/Tp1/Styles/indexStyle.css">
+    <link rel="stylesheet" href="/Tp1/Styles/navbar.css">    
+    <link rel="stylesheet" href="/Tp1/Styles/darklight.css">
+
+    <!-- <link rel="stylesheet" href="/Tp1/Styles/generalStyle.css"> -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="header" id="navbar">
+        <a href="/Tp1/Pages/index.html" class="logo">GIMNASIO TOP</a>
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class="bx bx-menu" id="menu-icon"></i>
+            <i class="bx bx-x" id="close-menu-icon"></i>
+        </label>
+        <nav class="navbar">
+            <a href="/Tp1/Pages/clases.html" style="--i:1">Clases</a>
+            <a href="/Tp1/Pages/entrenadores.html" style="--i:2">Entrenadores</a>
+            <a href="/Tp1/Pages/formulario.html" style="--i:3">Formulario</a>
+            <a href="/Tp1/Pages/paginaBlog.html" style="--i:4">Blog</a>
+            <a href="/Tp1/Pages/planPrices.html" style="--i:5">Precios</a>
+            <a href="#" style="--i:6">
+                <label class="theme-switch">
+                    <input type="checkbox" id="theme-toggle">
+                    <span class="slider"></span>
+                </label>
+            </a>
+        </nav>
+    </header>
+
+    <!-- Section Hero / Video y overlay -->
+    <section class="hero">
+
+            <video autoplay muted loop class="video-background">
+            <source src="/Tp1/Multimedia/videos/The Rock's Ultimate Workout.mp4" type="video/mp4"></source>
+            </video>
+            <div class="overlay">
+                <h1 class="animated-text">Nunca Te Rindas</h1><br>
+                <h2 class="animated-text-h2">¿Necesitas un Gimnasio?</h2><br>
+                <button class="animated-button">
+                    <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                      ></path>
+                    </svg>
+                    <span class="text">Únete Ahora</span>
+                    <span class="circle"></span>
+                    <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                        d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+                        </path>
+                    </svg>
+                  </button>
+                  
+            </div>
+
+    </section>
+
+    <!-- Section Cards / Classes -->
+    <section class="classes">
+        <h2 class="section-title">Nuestras Clases</h2>
+        <p class="section-description">Descubre nuestras clases y entrena con nosotros.</p>
+        
+        <div class="cards-container">
+            <!-- Clase 1 -->
+            <div class="card">
+                <div class="card-image">
+                    <img src="/Tp1/Multimedia/img/TheRockGym.jpg" alt="Musculación para crecer">
+                </div>
+                <div class="card-content">
+                    <h3>Musculación para crecer</h3>
+                    <p>Aprende las mejores técnicas para aumentar tu masa muscular de manera efectiva.</p>
+                </div>
+            </div>
+
+            <!-- Clase 2 -->
+            <div class="card">
+                <div class="card-image">
+                    <img src="/Tp1/Multimedia/img/womanGym.jpg" alt="Haz Cardio para mejorar tu figura">
+                </div>
+                <div class="card-content">
+                    <h3>Haz Cardio para mejorar tu figura</h3>
+                    <p>Mejora tu resistencia y quema calorías con nuestras clases de cardio.</p>
+                </div>
+            </div>
+
+            <!-- Clase 3 -->
+            <div class="card">
+                <div class="card-image">
+                    <img src="/Tp1/Multimedia/img/bicepsGym.jpg" alt="Quieres unos brazos grandes?">
+                </div>
+                <div class="card-content">
+                    <h3>¿Quieres unos brazos grandes?</h3>
+                    <p>Fortalece tus brazos con ejercicios diseñados para maximizar tu fuerza.</p>
+                </div>
+            </div>
+
+            <!-- Clase 4 -->
+            <div class="card">
+                <div class="card-image">
+                    <img src="/Tp1/Multimedia/img/womanSquat.avif" alt="Crece tus piernas con esta rutina">
+                </div>
+                <div class="card-content">
+                    <h3>Crece tus piernas con esta rutina</h3>
+                    <p>Descubre cómo desarrollar fuerza y volumen en tus piernas.</p>
+                </div>
+            </div>
+
+            <!-- Clase 5 -->
+            <div class="card">
+                <div class="card-image">
+                    <img src="/Tp1/Multimedia/img/functiontalTraining.jpg" alt="Entrenamiento funcional">
+                </div>
+                <div class="card-content">
+                    <h3>Entrenamiento funcional</h3>
+                    <p>Mejora tu equilibrio, coordinación y fuerza con ejercicios funcionales.</p>
+                </div>
+            </div>
+
+            <!-- Clase 6 -->
+            <div class="card">
+                <div class="card-image">
+                    <img src="/Tp1/Multimedia/img/yogaTraining.jpg">
+                </div>
+                <div class="card-content">
+                    <h3>Clases de yoga</h3>
+                    <p>Relájate y mejora tu flexibilidad con nuestras sesiones de yoga.</p>
+                </div>
+            </div>
+
+            <!-- Clase 7 -->
+            <div class="card">
+                <div class="card-image">
+                    <img src="/Tp1/Multimedia/img/strenghtTraining.jpeg" alt="Entrenamiento de fuerza">
+                </div>
+                <div class="card-content">
+                    <h3>Entrenamiento de fuerza</h3>
+                    <p>Desarrolla tu fuerza máxima con rutinas diseñadas para todos los niveles.</p>
+                </div>
+            </div>
+
+            <!-- Clase 8 -->
+            <div class="card">
+                <div class="card-image">
+                    <img src="/Tp1/Multimedia/img/HIITtraining.webp" alt="Entrenamiento HIIT">
+                </div>
+                <div class="card-content">
+                    <h3>Clases de HIIT</h3>
+                    <p>Quema calorías rápidamente con entrenamientos de alta intensidad.</p>
+                </div>
+            </div>
+        </div>
+    </section>     
+        <!-- Section Counter / Contador de Socios -->
+
+        <div class="counter-container">
+            <div class="counter">
+                <span class="contador"></span>
+                <span class="counter-label">Socios Satisfechos!</span>
+            </div>
+        </div>
+
+        <!-- Section Testimonials / Testimonios -->
+
+        <section class="testimonials">
+            <h2 class="section-title">Testimonios</h2>
+            <p class="section-description">Lo que nuestros clientes dicen sobre nosotros.</p>
+            <div class="carousel">
+                <div class="slide">
+                    <p>"Este gimnasio ha cambiado mi vida. ¡Los entrenadores son increíbles!"</p>
+                    <h4>- Juan Pérez</h4>
+                </div>
+                <div class="slide">
+                    <p>"Las instalaciones son de primer nivel. ¡Me encanta entrenar aquí!"</p>
+                    <h4>- María Gómez</h4>
+                </div>
+                <div class="slide">
+                    <p>"Desde que comencé en este gimnasio, me siento más fuerte y saludable."</p>
+                    <h4>- Carlos Ramírez</h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Footer / Formulario de contacto -->
+
+        <footer class="footer">
+            <div class="newsletter">
+                <h3>Suscríbete a nuestro Newsletter</h3>
+                <form>
+                    <input type="email" placeholder="Tu correo electrónico" required>
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
+            <div class="social-links">
+                <h3>Síguenos</h3>
+                <a href="#">Facebook</a>
+                <a href="#"><i class='bx bxl-instagram'> Instragram</i></a>
+                <a href="#">Twitter</a>
+            </div>
+            <div class="map">
+                <h3>Ubicación</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093647!2d144.95373631550415!3d-37.81627974202198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce6e0!2sMelbourne%2C%20Australia!5e0!3m2!1sen!2s!4v1619091079349!5m2!1sen!2s"
+                    width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </footer>
+
+        <script src="/Tp1/JS/darkLight.js"></script>
+
+    <script src="/Tp1/JS/navbarFixed.js"></script>
+    
+</body>
+</html>
